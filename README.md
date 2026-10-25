@@ -8,9 +8,9 @@ A production-ready active defense and cyber deception platform featuring autonom
 
 ## 🌐 Live Deployment
 
-**To deploy this project, see:** [FINAL-DEPLOYMENT.md](./FINAL-DEPLOYMENT.md)
+**🚀 Live Demo:** [https://phantom-trace-orcathon.netlify.app/](https://phantom-trace-orcathon.netlify.app/)
 
-**Recommended Platform:** Render (free, no credit card, full Node.js support)
+**Status:** ✅ Deployed and Operational
 
 **Local Testing:**
 ```bash
