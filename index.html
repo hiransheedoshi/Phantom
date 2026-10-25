@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHANTOM//TRACE — Cyber Deception & Autonomous Intrusion Investigation Platform</title>
+    <meta name="description" content="Adaptive cyber deception platform that deploys realistic decoy assets, simulates intrusion paths, correlates forensic evidence, and produces automated incident investigations." />
+    <meta property="og:title" content="PHANTOM//TRACE — Cyber Deception & Autonomous Intrusion Investigation Platform" />
+    <meta property="og:description" content="Adaptive cyber deception platform that deploys realistic decoy assets, simulates intrusion paths, correlates forensic evidence, and produces automated incident investigations." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('phantom_theme');
+          var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (saved === 'system' && systemDark)) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.colorScheme = 'dark';
+          } else {
+            // Default to Light Mode for first-time visitors
+            document.documentElement.classList.remove('dark');
+            document.documentElement.style.colorScheme = 'light';
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased selection:bg-cyan-500/20 selection:text-cyan-700 dark:selection:text-cyan-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
